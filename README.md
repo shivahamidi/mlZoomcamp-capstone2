@@ -1,5 +1,3 @@
-# mlZoomcamp-capstone2
-
 ![Heart illustration](/images/heart.jpg)
 
 # ❤️ Heart Disease Prediction Project
