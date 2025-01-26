@@ -17,7 +17,6 @@ This project focuses on predicting heart disease using machine learning models. 
 8. [☁️ AWS Elastic Beanstalk Deployment](#️-aws-elastic-beanstalk-deployment)
 9. [🧪 Testing the Application](#-testing-the-application)
 10. [🤝 Contributing](#-contributing)
-11. [📜 License](#-license)
 
 ---
 
@@ -277,10 +276,6 @@ We welcome contributions to enhance this project. Please:
 - Fork the repository.
 - Create a new branch for your feature or bug fix.
 - Submit a pull request with a detailed description of your changes.
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE.txt).
 
 --- 
 ![Heart attack](/images/Heart.jpg)
