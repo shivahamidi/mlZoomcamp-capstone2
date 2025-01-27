@@ -49,7 +49,6 @@ Heart-Disease-App/
 ├── Pipfile                        # Dependencies for pipenv
 ├── Pipfile.lock                   # Locked versions of dependencies
 ├── Dockerfile                     # Docker configuration for containerization
-├── LICENSE.txt                    # Project MIT License
 └── README.md                      # Project description and instructions
 ```
 
