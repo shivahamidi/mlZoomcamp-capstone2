@@ -158,7 +158,6 @@ Send a test request using `predict_test.py`:
 ```bash
 python predict_test.py
 ```
-![Model deployment only with Flask](/images/model_deployment_with_flask.png)
 
 ---
 
@@ -170,7 +169,6 @@ Serve the app using Flask and test its functionality:
    ```bash
    python predict_test.py
    ```
-![Model deployment only with pipenv and flask](/images/model_deployment_with_pipenv.png)
 
 You can now transition to containerized deployment with Docker.
 
@@ -195,7 +193,6 @@ Send a request to the service using:
 ```bash
 python predict_test.py
 ```
-![Model deployment with Docker](/images/model_deployment_with_docker.png)
 
 ---
 
@@ -218,16 +215,12 @@ eb init -p "Docker running on 64bit Amazon Linux 2" heart-prediction-app -r us-e
 ```
 Provide your AWS credentials when prompted. These can be generated from the AWS IAM service.
 
-NB: You can follow [Alexey's tutorial](https://mlbookcamp.com/article/aws) to create an account on AWS.
-
 ### 3. Deploy Locally
 Deploy the application locally:
 ```bash
 eb local run --port 9696
 ```
-![Local model deployment with Elastic Beanstalk](images/model_deployment_with_eb_locally.png)
 Use `python predict_test.py` to send a request to the locally running app for testing.
-![Test local model deployment with Elastic Beanstalk](images/model_deployment_with_eb_locally_test.png)
 
 ### 4. Deploy to the Cloud
 Deploy the application to Elastic Beanstalk:
