@@ -117,8 +117,8 @@ Merging these datasets provides a more robust foundation for training machine le
 
 ### a. Clone the Repository
 ```bash
-git clone https://github.com/maxim-eyengue/Heart-Disease-App.git
-cd Heart-Disease-App
+git clone https://github.com/shivahamidi/mlZoomcamp-capstone2.git
+cd mlZoomcamp-capstone2
 ```
 
 ### b. Install Dependencies
